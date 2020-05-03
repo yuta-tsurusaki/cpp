@@ -26,6 +26,11 @@ int foo = 0;
 decltype(foo) bar;  // the same as: int bar;
 ```
 
+## `nullptr`
+= null pointer
+
+
+
 # compiling and execution
 ## complie
 basic
