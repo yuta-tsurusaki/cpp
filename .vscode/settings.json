@@ -1,0 +1,8 @@
+{
+  // "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+      // "cpp": "cd $dir && runFiles=`ls *.cpp` && g++ -std=c++11 `echo ${runFiles}` -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+      "cpp": "cd $dir && mkdir -p dist && g++ -std=c++11 $fileName -o ./dist/$fileNameWithoutExt && $dir/dist/$fileNameWithoutExt",
+  },
+  "clang.cxxflags": ["-std=c++11"],
+}
