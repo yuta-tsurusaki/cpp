@@ -29,8 +29,6 @@ decltype(foo) bar;  // the same as: int bar;
 ## `nullptr`
 = null pointer
 
-
-
 # compiling and execution
 ## complie
 basic
@@ -46,3 +44,7 @@ add option `-std=c++11`
 ---
 # Reference
 http://www.cplusplus.com/doc/
+
+---
+# progress
+array
